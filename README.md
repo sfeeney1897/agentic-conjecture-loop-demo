@@ -1,13 +1,13 @@
-# Conjecture Loop Demo
+# Agentic Conjecture Loop Demo
 
 A laptop-sized agentic discovery loop in one Python file (about 200 lines):
 generate data, compute invariants, propose conjectures, triage them with an LLM,
-run new experiments to try to kill them, and repair the ones that die.
+run new experiments to try to refute them (find a counterexample), and repair the ones that die.
 
 Companion code for the tutorial *Agents That Conjecture* (Agentic Development & Discovery, Fall 2026).
 The full research version of this loop is **SCALAR**: [arXiv:2605.10327](https://arxiv.org/abs/2605.10327) · [code](https://github.com/sfeeney1897/SCALAR).
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sfeeney1897/conjecture-loop-demo/blob/main/demo.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sfeeney1897/agentic-conjecture-loop-demo/blob/main/demo.ipynb)
 
 ## Run it
 
@@ -20,8 +20,8 @@ Pick whichever option fits your machine. All of them work on Windows, macOS and 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) once, then:
 
 ```
-git clone https://github.com/sfeeney1897/conjecture-loop-demo.git
-cd conjecture-loop-demo
+git clone https://github.com/sfeeney1897/agentic-conjecture-loop-demo.git
+cd agentic-conjecture-loop-demo
 uv run graph_conjectures_demo.py
 ```
 
